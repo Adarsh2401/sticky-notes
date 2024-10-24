@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note Taking App</title>
+    <link rel="stylesheet" href="sticky styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Left side: Note input -->
+        <div class="note-input-container">
+            <textarea id="noteInput" placeholder="// Write a note here"></textarea>
+            <div class="controls">
+                <input type="color" id="colorPicker" value="#ff00ff">
+                <button id="addNoteButton">Add note</button>
+            </div>
+        </div>
+        <!-- Right side: Notes display -->
+        <div class="notes-container">
+            <h2 class="heading">Your Notes</h2>
+            <div id="notesList"></div>
+        </div>
+    </div>
+    
+
+    <script src="sticky script.js"></script>
+</body>
+</html>
